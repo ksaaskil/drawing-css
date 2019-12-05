@@ -11,4 +11,4 @@ $ parcel cub.html
 
 ## Sources
 
-- [cub.html](./cub.html): [pen](https://codepen.io/sashatran/pen/B)
+- [cub.html](./cub.html): [Pen](https://codepen.io/sashatran/pen/BpoLeE) by [Sasha](https://codepen.io/sashatran)
