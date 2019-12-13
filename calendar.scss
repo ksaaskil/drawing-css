@@ -1,3 +1,7 @@
+$grey: #7a8590;
+@import url("https://fonts.googleapis.com/css?family=Arimo");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
 *,
 *::after,
 *::before {
@@ -8,4 +12,43 @@
 
 body {
   box-sizing: border-box;
+  background: linear-gradient(50deg, #c6d8af 50%, #c2f8cb);
+}
+
+.container {
+  position: absolute;
+  left: 35%;
+  top: 35%;
+}
+
+.calendar {
+  width: 200px;
+  height: 200px;
+  /* 0px from the left, 50px from the top, 0px feathering */
+  box-shadow: inset 0px 50px 0px #ce5f5d, inset 0 -3px 5px #666,
+    inset 0 200px 0 #fff, 0 3px 5px #000, 7px 10px 0 $grey, -7px 10px 0 $grey;
+}
+
+.calendar:before {
+  z-index: 1;
+  content: "19";
+  color: #000;
+  position: absolute;
+  top: 60px;
+  left: 50px;
+  font-size: 100px;
+  font-family: "Arimo";
+}
+
+.calendar:after {
+  z-index: 1;
+  content: "JAN";
+  color: #000;
+  position: absolute;
+  top: 10px;
+  left: 60px;
+  font-size: 30px;
+  font-family: "Roboto";
+  text-transform: uppercase;
+  letter-spacing: 3px;
 }
