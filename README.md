@@ -16,4 +16,4 @@ Pens by [Sasha](https://codepen.io/sashatran):
 - [cub.html](./cub.html): [Pen](https://codepen.io/sashatran/pen/BpoLeE)
 - [elephant.html](./elephant.html): [Pen](https://codepen.io/sashatran/pen/JEGJyz)
 - [calendar.html](./calendar.html):[Pen](https://codepen.io/sashatran/pen/BpWLbN)
-- [office.html](./office.html): [Pen](https://codepen.io/sashatran/pen/apaZjr)
+- [office.pug](./office.pug): [Pen](https://codepen.io/sashatran/pen/apaZjr)
